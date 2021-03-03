@@ -5,7 +5,7 @@ html {
 
 /* ensures image stays to center of page */
 body {
-    background: url('/media/pics/homepage_background_cropped.jpg') no-repeat center center fixed;
+    background: url('/media/homepage_background_cropped.jpg') no-repeat center center fixed;
     background-size: cover;
     /* 164px is height of top header */
     height: calc(100vh - 164px);
