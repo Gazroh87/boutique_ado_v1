@@ -52,12 +52,12 @@
 }
 
 select,
-select option[value=""] {
+select option {
     color: #000;
 }
 
 select:invalid,
-select option {
+select option[value=""] {
     color: #aab7c4 !important;
 }
 
