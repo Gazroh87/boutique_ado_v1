@@ -27,14 +27,11 @@
                     {% csrf_token %}
                     {{ form | crispy }}
                     <div class="text-end">
-                        <a href="" class="btn btn-outline-black rounded-0" href="{% url 'products' %}">Cancel</a>
+                        <a class="btn btn-outline-black rounded-0" href="{% url 'products' %}">Cancel</a>
                         <button class="btn btn-black rounded-0" type="submit">Add Product</button>
                     </div>
                 </form>
             </div>
         </div>
     </div>
-{% endblock %}
-
-{% block postloadjs %}
 {% endblock %}
