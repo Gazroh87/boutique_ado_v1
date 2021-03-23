@@ -8,7 +8,7 @@ class UserProfileForm(forms.ModelForm):
     class Meta:
         model = UserProfile
         exclude = ('user',)
-        widgets = {'country': CountrySelectWidget()}
+        widgets = {'default_country': CountrySelectWidget()}
 
     def __init__(self, *args, **kwargs):
         """
